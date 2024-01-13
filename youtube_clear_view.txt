@@ -15,13 +15,13 @@ m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-co
 m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
 
 ! Hide chat window when viewing streams
-www.youtube.com###chat:remove()
+! www.youtube.com###chat:remove()
 
 ! Hide "Shorts remixing this video" shelf in the description
 www.youtube.com##ytd-reel-shelf-renderer
 
 ! Don't enter / exit fullscreen on double-click 
-www.youtube.com##+js(aeld, dblclick)
+! www.youtube.com##+js(aeld, dblclick)
 
 ! Hide Youtube mixes and radios
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="&start_radio=1"])
@@ -33,7 +33,7 @@ www.youtube.com##ytd-player div.videowall-endscreen a[data-is-list=true]
 www.youtube.com##.ytp-suggested-action-badge-expanded
 
 ! Hide Includes paid promotion
-www.youtube.com##.ytp-paid-content-overlay
+! www.youtube.com##.ytp-paid-content-overlay
 
 ! Hide upcoming Youtube videos
 www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
