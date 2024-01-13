@@ -36,9 +36,9 @@ www.youtube.com##.ytp-suggested-action-badge-expanded
 ! www.youtube.com##.ytp-paid-content-overlay
 
 ! Hide upcoming Youtube videos
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
+! www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+! www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
 
 ! Brand image in the corner
 youtube.com##.ytp-button.branding-img-container
@@ -60,13 +60,13 @@ www.youtube.com##ytd-app:style(--ytd-app-fullerscreen-scrollbar-width: -1px !imp
 
 ! Hide Verified checkmark
 ! https://github.com/yokoffing/filterlists/pull/110
-www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
-www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
-www.youtube.com##.ytd-comment-renderer #author-comment-badge
+! www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+! www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+! www.youtube.com##.ytd-comment-renderer #author-comment-badge
 
 ! Hide badges (such as "New") under video recommendations on the sidebar
 ! https://github.com/yokoffing/filterlists/pull/114
-www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+! www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
 
 ! Hide "smartimation" animations
 ! Hide the rainbow-colored border animation around the subscribe button
