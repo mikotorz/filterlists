@@ -2,12 +2,12 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-orange)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits]()](https://hits.seeyoufarm.com)
 
 ***
 
 # Guidelines
-1) Prevent overblocking by applying the law of [diminishing returns](https://web.archive.org/web/20231108092752if_/https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (always blocking more ≠ better blocking experience).
+1) Prevent overblocking by applying the law of [diminishing returns]() (always blocking more ≠ better blocking experience).
 2) Aim for [efficiency](https://brave.com/blog/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (use sane, quality resources).
 3) Implement the [minimum](https://reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) number of useful lists (avoid redundancy and bloat when possible).
 
@@ -76,6 +76,17 @@ To import custom filters into AdGuard:
 2. In the new tab that opens, click on **Next**.
 3. Toggle the box that says **Trusted**, then click **Subscribe**.
 
+### Brave Browser
+**Do not use the subscribe link.** Add your own custom filter lists from different sources just copying/pasting the `RAW` URL and pressing save changes. 
+
+1. Click on the title of the list from the selections in this repo.
+2. On GitHub, select `Raw` on the right-hand side of the page.
+3. Copy the URL.
+4. In a separate tab, go to `brave://adblock` in the URL bar.
+5. Under **Add custom filter lists**, paste the URL and select **Add**.
+
+<details><summary>Click me to view instructions for other adblockers</summary>
+
 ### AdBlock Plus
 There is a branch specifically for Adblock Plus (ABP) syntax. Check it out [here](https://github.com/Metrokoto/filterlists-abp).
 
@@ -89,15 +100,6 @@ To import custom filters into AdBlock:
 1. Click the **subscribe** link by one of the entries below.
 2. In the dialog box that pops up, press **OK**.
 
-### Brave Browser
-Add your own custom filter lists from different sources just copying/pasting the RAW URL and pressing save changes. **Do not use the subscribe link.**
-
-1. Click on the title of the list from the selections in this repo.
-2. On GitHub, select `Raw` on the right-hand side of the page.
-3. Copy the URL.
-4. In a separate tab, go to `brave://adblock` in the URL bar.
-5. Under **Add custom filter lists**, paste the URL and select **Add**.
-
 ### Other ad blockers
 **Do not use the subscribe link.** Instead, do the following:
 
@@ -105,6 +107,9 @@ Add your own custom filter lists from different sources just copying/pasting the
 2. In GitHub, click `Raw` on the right-hand side of the page.
 3. Copy+paste the URL to your preferred ad blocker.
 4. Follow your ad blocker's instructions for adding custom lists.
+
+</details>
+
 
 ***
 
@@ -157,7 +162,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 ### Paywalls
 To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://github.com/bpc-clone/bpc_updates/releases). The blocklists are limited in what they can do and are therefore **optional**.
 
-1) **[Bypass Paywalls Clean filter](https://github.com/bpc-clone/bypass-paywalls-clean-filters/blob/main/bpc-paywall-filter.txt)** (960 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/bpc-clone/bypass-paywalls-clean-filters/main/bpc-paywall-filter.txt&title=Bypass%20Paywalls%20Clean%20filter)
+1) **[Bypass Paywalls Clean filter](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/?file=bpc-paywall-filter.txt&branch=main)** (960 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt&title=Bypass%20Paywalls%20Clean%20filter)
 <br> You do not need this filterlist if you use the extension.
  
 2) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt&title=Anti-paywall%20filters)
@@ -195,7 +200,7 @@ Balanced approach for users with a low threshold for site issues:
 * (optional) Adds security protections from known badware domains
 
 #### Built-in lists
-In addition to the default lists, you should also enable:
+*In addition to the default lists, you should also enable:*
 1. AdGuard URL Tracking Protection
 2. EasyList/uBO - Cookie Notices
 3. EasyList - Social Widgets (if they bother you, or you don't use them)
@@ -217,11 +222,12 @@ Advanced apporach for users comfortable troubleshooting issues and reporting sit
 * (optional) Security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
 
 #### Built-in lists
-In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:
+*In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
 1. (optional) AdGuard Tracking Protection, [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt)
 2. EasyList - Annoyances (all lists)
 
 #### Custom lists
+*In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
 1. Privacy Essentials (on uBO, `yokoffing's click2load filters` is included)
 2. Hagezi Pro Mini
 3. (optional) Block third-party fonts
@@ -355,14 +361,16 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 > [!WARNING]
  > Do not change these values blindly. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
 
-| **Setting**                   | **Value** | **Description**                                                                      |
-|-------------------------------|-----------|--------------------------------------------------------------------------------------|
-| `autoUpdateAssetFetchPeriod`    | `10`        | auto-updater waits `x` seconds before fetching the next filterlist                                   |
-| `autoUpdateDelayAfterLaunch`    | `5`         | update out-of-date filter lists `x` seconds after browser startup                                    |
-| `autoUpdatePeriod`              | `1`         | uBO checks for [filter lists updates](https://www.reddit.com/r/uBlockOrigin/comments/174o7b6/comment/k4fpi4o/?context=3) every `x` hours  |
-| `cnameMaxTTL`                   | `720`       | cache CNAME aliases for `x` minutes                                                                  |
-| `filterAuthorMode`              | `true`      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)    |
-| `updateAssetBypassBrowserCache` | `true`      | bypass cache when manually fetching a filter list more often than every hour                         |
+*Updated: 26 July 2024, after uBO devs made improvements*
+
+| **Setting**                     | **Value**           | **Description**                                                                      |
+|---------------------------------|---------------------|--------------------------------------------------------------------------------------|
+| `autoUpdateAssetFetchPeriod`    | `5` `(default)`     | auto-updater waits `x` seconds before fetching the next filter list                                  |
+| `autoUpdateDelayAfterLaunch`    | `10`                | update out-of-date filter lists `x` seconds after browser startup                                    |
+| `autoUpdatePeriod`              | `1` `(default)`     | check every `x` hours for [filter lists updates](https://www.reddit.com/r/uBlockOrigin/comments/174o7b6/comment/k4fpi4o/?context=3)  |
+| `cnameMaxTTL`                   | `480`               | (optional) cache CNAME aliases for `x` minutes                                                       |
+| `filterAuthorMode`              | `true`              | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)    |
+| `updateAssetBypassBrowserCache` | `true`              | bypass cache when manually fetching a filter list more than once an hour                             |
 
 ***
 
