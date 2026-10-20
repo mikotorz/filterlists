@@ -155,15 +155,12 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> A curated list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles, "read more", etc.).
 
 2) [**Fanboy's Agegate List**](https://secure.fanboy.co.nz/fanboy-agegate.txt) | [subscribe](https://subscribe.adblockplus.org/?location=https://secure.fanboy.co.nz/fanboy-agegate.txt&title=Fanboy's%20Agegate%20List)
-<br> For age gated content.
+<br> For age-gated content.
 
-3) [**Fanboy's Anti-Chat List**](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt&title=Fanboy's%20Anti-Chat%20List)
-<br> Blocks AI chats from the most popular search engines.
-
-4) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt&title=Browse%20websites%20without%20logging%20in)
+3) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt&title=Browse%20websites%20without%20logging%20in)
 <br> This list attempts to bypass forced logins on sites.
 
-5) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
+4) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
 
 ### Paywalls
@@ -414,11 +411,16 @@ To change uBOL's [default filtering mode](https://github.com/uBlockOrigin/uBOL-h
 2. Click on the cogwheel icon (⚙️) to access the dashboard.
 3. Choose either **Optimal** or **Complete**.
 
-![Screenshot_18-3-2025_124212_cimighlppcgcoapaliogpjjdehbnofhn](https://github.com/user-attachments/assets/180fd4ac-75e9-48b8-b282-d52d4b56f319)
+<img width="994" height="704" alt="uBOL Default 9 6" src="https://github.com/user-attachments/assets/b84e00ef-5fdb-4a6e-85a0-8f466650cc22" />
 
 For the best balance between blocking unwanted content and low resource usage, set the default mode to **Optimal**. This will ensure better overall blocking performance without significantly impacting your browsing experience.
 
 If you don't want to fiddle with the settings ever again and aren't concerned about resource usage, then choose **Complete**.
+
+### Behavior
+
+<img width="978" height="460" alt="uBo Behavior 9 6" src="https://github.com/user-attachments/assets/0acee5a0-1422-43ba-b3c1-326aaaeb955d" />
+
 
 ### Specific websites
 
@@ -434,7 +436,7 @@ To change the filtering level for a specific site:
 You can also lower the filtering mode for a site by moving the slider to **Basic** or **No Filtering**.
 
 ### Recommended filters for uBlock Origin Lite
-![Screenshot_18-3-2025_12311_cimighlppcgcoapaliogpjjdehbnofhn](https://github.com/user-attachments/assets/0c81b92f-9209-4566-8c19-e0a4d9a33184)
+<img width="540" height="1058" alt="uBO lists dark" src="https://github.com/user-attachments/assets/f2ff6a3a-28a7-4d80-a1cb-bf26a1191a84" />
 
 ***
 

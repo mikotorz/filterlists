@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 29 May 2026
+! Version: 31 July 2026
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -94,7 +94,6 @@
 ||cleantalk.org^
 ||clipboardjs.com^$3p
 ||cloudinary.com^$3p,~image
-||cnstrc.com^
 ||coinmarketcap.com^$3p
 ||concert.io^$3p
 ||connect.getflowbox.com^$3p
@@ -181,7 +180,7 @@
 ||knowyourapps.com^$3p
 ||kount.com^$3p
 ||kount.net^$3p
-||kustomerapp.com^$3p
+||kustomerapp.com^$3p,domain=~kustomer.help
 ||leadsdome.com^
 ||letspin.io^$3p
 ||limelight.com^$3p,script
@@ -474,10 +473,10 @@ fmovies.*##+js(nosiif, try)
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
 ! ||graph.facebook.com^$domain=~facebook.com|~instagram.com
 ! ||graph.instagram.com^$domain=~facebook.com|~instagram.com
-||instagram.com^$3p,~subdocument
-@@||instagram.com/p/$subdocument
-@@||instagram.com^$script
-@@||-instagram.*.facebook.com^$subdocument
+! ||instagram.com^$3p,~subdocument
+! @@||instagram.com/p/$subdocument
+! @@||instagram.com^$script
+! @@||-instagram.*.facebook.com^$subdocument
 
 ! TWITTER
 ||api.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
